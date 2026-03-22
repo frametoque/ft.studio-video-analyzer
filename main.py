@@ -10,7 +10,7 @@ app = FastAPI(title="Frametoque AI Backend")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "https://studio.frametoque.online"],
+    allow_origins=["http://localhost:3000", "https://aistudio.frametoque.online"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
